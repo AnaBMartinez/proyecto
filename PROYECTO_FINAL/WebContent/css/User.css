@@ -1,0 +1,176 @@
+ @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+body {
+  font-family: 'Cambria';;
+  color: black;
+  font-weight: 300;
+}
+body ::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-family: 'Cambria';
+  color: black;
+  font-weight: 300;
+}
+body :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-family: 'Cambria';
+  color: black;
+  opacity: 1;
+  font-weight: 300;
+}
+body ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-family: 'Cambria';
+  color: black;
+  opacity: 1;
+  font-weight: 300;
+}
+body :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-weight: 300;
+}
+
+input{ 
+	text-align:center; 
+	font-family: 'Cambria';
+} 
+
+.table1 th {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: 'Arial Black';
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.table2 th {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: 'Arial Black';
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.table1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;	
+}
+
+.table2{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;	
+}
+
+.table3{
+    color: white;
+    font-family: 'Cambria';
+    text-align: center;
+    background-color: #696969;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.table4{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;	
+}
+
+.table3 td{
+	padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.wrapper {
+  background: #1e90ff;
+  background: -webkit-linear-gradient(top left, #4169E1 0%, #B0E0E6 100%);
+  background: linear-gradient(to bottom right, #4169E1 0%, #B0E0E6 100%);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ficha {
+	 -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+  font-weight: 300;
+}
+
+.table3 th{
+background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: 'Arial Black';
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.solicitar {
+	-moz-box-shadow: 7px 12px 13px -7px #276873;
+	-webkit-box-shadow: 7px 12px 13px -7px #276873;
+	box-shadow: 7px 12px 13px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b1d6e3), color-stop(1, #131414));
+	background:-moz-linear-gradient(top, #b1d6e3 5%, #131414 100%);
+	background:-webkit-linear-gradient(top, #b1d6e3 5%, #131414 100%);
+	background:-o-linear-gradient(top, #b1d6e3 5%, #131414 100%);
+	background:-ms-linear-gradient(top, #b1d6e3 5%, #131414 100%);
+	background:linear-gradient(to bottom, #b1d6e3 5%, #131414 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b1d6e3', endColorstr='#131414',GradientType=0);
+	background-color:#b1d6e3;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:18px;
+	font-weight:bold;
+	padding:5px 76px;
+	text-decoration:none;
+}
+.solicitar:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #131414), color-stop(1, #b1d6e3));
+	background:-moz-linear-gradient(top, #131414 5%, #b1d6e3 100%);
+	background:-webkit-linear-gradient(top, #131414 5%, #b1d6e3 100%);
+	background:-o-linear-gradient(top, #131414 5%, #b1d6e3 100%);
+	background:-ms-linear-gradient(top, #131414 5%, #b1d6e3 100%);
+	background:linear-gradient(to bottom, #131414 5%, #b1d6e3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#131414', endColorstr='#b1d6e3',GradientType=0);
+	background-color:#131414;
+}
+.solicitar:active {
+	position:relative;
+	top:1px;
+}
+
+.solicitud{
+
+}
